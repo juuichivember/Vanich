@@ -18,7 +18,7 @@ Vanich version 1.0.0 only has 6 functional pages:
 3. (Need to install colima first) [If you use colima to run Docker, do this step. Docker Desktop works fine but I use macOS and I can't open Docker Desktop] write command "<b>colima start</b>"
 4. "<b>docker-compose build</b>"
 5. "<b>docker-compose up -d</b>"
-6. Then, open <a>https://localhost:3000</a>. You will see the home page of Vanich.
+6. Then, open <a>https://localhost:3000</a>. You will see the home page of Vanich. In case the page was not loaded, change DEBUG to True in /backend/core/settings.py (DEBUG = True).
 
 
 ***After finish running you need to "<b>docker-compose down</b>" and "<b>colima stop</b>" to stop all services.***
